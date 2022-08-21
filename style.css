@@ -39,10 +39,26 @@ aside {
     padding: 15px;
 }
 
+.btn-comprar:hover {
+    background-color: yellow;
+    color: black;
+}
+
 footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 50px;
+    padding-top: 30px;
+}
+
+.contatos {
+    background-color: lightskyblue;
+    color: black;
+    font-weight: bold;
+    border-radius: 15px;
+    height: 40px;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
 }
