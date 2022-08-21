@@ -1,19 +1,48 @@
 body {
-
+    font-family: 'Sarala', sans-serif;
+    background-color: black;
+    color: white;
 }
 
 header {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
 }
 
 main {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
 }
 
 aside {
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.btn-comprar {
+    background-color: greenyellow;
+    color: black;
+    font-weight: bold;
+    border-radius: 15px;
+    height: 40px;
+    text-decoration: none;
+    padding: 15px;
 }
 
 footer {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
 }
