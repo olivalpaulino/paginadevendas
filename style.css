@@ -15,6 +15,7 @@ header {
     justify-content: center;
     align-items: center;
     height: 30vh;
+    margin-bottom: 15px;
 }
 
 nav {
@@ -38,6 +39,7 @@ aside {
     align-items: center;
     align-content: center;
     text-align: center;
+    margin: 15px;
 }
 
 .btn-comprar {
@@ -61,6 +63,8 @@ footer {
     justify-content: center;
     align-items: center;
     padding-top: 30px;
+    /*margin-bottom: 15px;*/
+    margin: 15px;
 }
 
 .contatos {
