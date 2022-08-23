@@ -1,21 +1,479 @@
-@media screen and (max-width: 1920px){}
-@media screen and (max-width: 1440px){}
-@media screen and (max-width: 1382px){}
-@media screen and (max-width: 1200px){}
-@media screen and (max-width: 1110px){}
-@media screen and (max-width: 1080px){}
-@media screen and (max-width: 1024px){}
-@media screen and (max-width: 992px){}
-@media screen and (max-width: 900px){}
-@media screen and (max-width: 800px){}
-@media screen and (max-width: 768px){}
-@media screen and (max-width: 725px){}
-@media screen and (max-width: 700px){}
-@media screen and (max-width: 675px){}
-@media screen and (max-width: 650px){}
-@media screen and (max-width: 625px){}
-@media screen and (max-width: 600px){}
-@media screen and (max-width: 575px){}
+@media screen and (max-width: 1920px){
+    body {max-width: 1920px;}
+    header {padding: 5px;}
+    nav {line-height: 30px;}
+    img {width: 150px;}
+    h1 {font-size: 32px;}
+    h2 {font-size: 28px;}
+    h3 {font-size: 26px;}
+    iframe {width: 1850px; height: 1024px;}
+    main {padding-top: 50px;}
+
+    p {
+        font-size: 22px;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .btn-comprar {
+        height: 35px;
+        font-size: 20px;
+    }
+
+    .contatos {
+        height: 35px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1440px){
+    body {max-width: 1440px;}
+    header {padding: 5px;}
+    nav {line-height: 30px;}
+    img {width: 150px;}
+    h1 {font-size: 28px;}
+    h2 {font-size: 24px;}
+    h3 {font-size: 22px;}
+    iframe {width: 1350px; height: 720px;}
+    main {padding-top: 50px;}
+
+    p {
+        font-size: 15px;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .btn-comprar {
+        height: 30px;
+        font-size: 15px;
+    }
+
+    .contatos {
+        height: 30px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1382px){
+    body {max-width: 1382px;}
+    header {padding: 5px;}
+    nav {line-height: 30px;}
+    img {width: 150px;}
+    h1 {font-size: 28px;}
+    h2 {font-size: 24px;}
+    h3 {font-size: 22px;}
+    iframe {width: 1330px; height: 720px;}
+    main {padding-top: 50px;}
+
+    p {
+        font-size: 15px;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .btn-comprar {
+        height: 30px;
+        font-size: 15px;
+    }
+
+    .contatos {
+        height: 30px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    body {max-width: 1200px;}
+    header {padding: 5px;}
+    nav {line-height: 30px;}
+    img {width: 150px;}
+    h1 {font-size: 28px;}
+    h2 {font-size: 24px;}
+    h3 {font-size: 22px;}
+    iframe {width: 1150px; height: 720px;}
+    main {padding-top: 50px;}
+
+    p {
+        font-size: 15px;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .btn-comprar {
+        height: 30px;
+        font-size: 15px;
+    }
+
+    .contatos {
+        height: 30px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1080px){
+    body {max-width: 1080px;}
+    header {padding: 5px;}
+    nav {line-height: 30px;}
+    img {width: 150px;}
+    h1 {font-size: 28px;}
+    h2 {font-size: 24px;}
+    h3 {font-size: 22px;}
+    iframe {width: 1030px; height: 720px;}
+    main {padding-top: 50px;}
+
+    p {
+        font-size: 15px;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .btn-comprar {
+        height: 30px;
+        font-size: 15px;
+    }
+
+    .contatos {
+        height: 30px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    body {max-width: 1024px;}
+    header {padding: 5px;}
+    nav {line-height: 30px;}
+    img {width: 150px;}
+    h1 {font-size: 28px;}
+    h2 {font-size: 24px;}
+    h3 {font-size: 22px;}
+    iframe {width: 980px; height: 720px;}
+    main {padding-top: 50px;}
+
+    p {
+        font-size: 15px;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .btn-comprar {
+        height: 30px;
+        font-size: 15px;
+    }
+
+    .contatos {
+        height: 30px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    body {max-width: 992px;}
+    header {padding: 5px;}
+    nav {line-height: 30px;}
+    img {width: 150px;}
+    h1 {font-size: 28px;}
+    h2 {font-size: 24px;}
+    h3 {font-size: 22px;}
+    iframe {width: 950px; height: 650px;}
+    main {padding-top: 50px;}
+
+    p {
+        font-size: 15px;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .btn-comprar {
+        height: 30px;
+        font-size: 15px;
+    }
+
+    .contatos {
+        height: 30px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    body {max-width: 900px;}
+    header {padding: 5px;}
+    nav {line-height: 30px;}
+    img {width: 150px;}
+    h1 {font-size: 28px;}
+    h2 {font-size: 24px;}
+    h3 {font-size: 22px;}
+    iframe {width: 850px; height: 600px;}
+    main {padding-top: 50px;}
+
+    p {
+        font-size: 15px;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .btn-comprar {
+        height: 30px;
+        font-size: 15px;
+    }
+
+    .contatos {
+        height: 30px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    body {max-width: 800px;}
+    header {padding: 5px;}
+    nav {line-height: 30px;}
+    img {width: 150px;}
+    h1 {font-size: 28px;}
+    h2 {font-size: 24px;}
+    h3 {font-size: 22px;}
+    iframe {width: 750px; height: 475px;}
+    main {padding-top: 50px;}
+
+    p {
+        font-size: 15px;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .btn-comprar {
+        height: 30px;
+        font-size: 15px;
+    }
+
+    .contatos {
+        height: 30px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    body {max-width: 768px;}
+    header {padding: 5px;}
+    nav {line-height: 30px;}
+    img {width: 150px;}
+    h1 {font-size: 28px;}
+    h2 {font-size: 24px;}
+    h3 {font-size: 22px;}
+    iframe {width: 700px; height: 475px;}
+    main {padding-top: 50px;}
+
+    p {
+        font-size: 15px;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .btn-comprar {
+        height: 30px;
+        font-size: 15px;
+    }
+
+    .contatos {
+        height: 30px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 725px){
+    body {max-width: 725px;}
+    header {padding: 5px;}
+    nav {line-height: 30px;}
+    img {width: 150px;}
+    h1 {font-size: 26px;}
+    h2 {font-size: 22px;}
+    h3 {font-size: 20px;}
+    iframe {width: 675px; height: 475px;}
+    main {padding-top: 50px;}
+
+    p {
+        font-size: 15px;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .btn-comprar {
+        height: 30px;
+        font-size: 15px;
+    }
+
+    .contatos {
+        height: 30px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    body {max-width: 700px;}
+    header {padding: 5px;}
+    nav {line-height: 30px;}
+    img {width: 150px;}
+    h1 {font-size: 26px;}
+    h2 {font-size: 22px;}
+    h3 {font-size: 20px;}
+    iframe {width: 650px; height: 450px;}
+    main {padding-top: 50px;}
+
+    p {
+        font-size: 14px;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .btn-comprar {
+        height: 30px;
+        font-size: 15px;
+    }
+
+    .contatos {
+        height: 20px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 675px){
+    body {max-width: 675px;}
+    header {padding: 5px;}
+    nav {line-height: 30px;}
+    img {width: 150px;}
+    h1 {font-size: 26px;}
+    h2 {font-size: 22px;}
+    h3 {font-size: 20px;}
+    iframe {width: 625px; height: 450px;}
+    main {padding-top: 50px;}
+
+    p {
+        font-size: 14px;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .btn-comprar {
+        height: 25px;
+        font-size: 15px;
+    }
+
+    .contatos {
+        height: 25px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 650px){
+    body {max-width: 650px;}
+    header {padding: 5px;}
+    nav {line-height: 30px;}
+    img {width: 150px;}
+    h1 {font-size: 24px;}
+    h2 {font-size: 20px;}
+    h3 {font-size: 18px;}
+    iframe {width: 575px; height: 425px;}
+    main {padding-top: 50px;}
+
+    p {
+        font-size: 13px;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .btn-comprar {
+        height: 23px;
+        font-size: 13px;
+    }
+
+    .contatos {
+        height: 23px;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 625px){
+    body {max-width: 625px;}
+    header {padding: 5px;}
+    nav {line-height: 30px;}
+    img {width: 150px;}
+    h1 {font-size: 24px;}
+    h2 {font-size: 20px;}
+    h3 {font-size: 18px;}
+    iframe {width: 525px; height: 400px;}
+    main {padding-top: 50px;}
+
+    p {
+        font-size: 13px;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .btn-comprar {
+        height: 20px;
+        font-size: 12px;
+    }
+
+    .contatos {
+        height: 20px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    body {max-width: 600px;}
+    header {padding: 5px;}
+    nav {line-height: 30px;}
+    img {width: 150px;}
+    h1 {font-size: 24px;}
+    h2 {font-size: 20px;}
+    h3 {font-size: 18px;}
+    iframe {width: 525px; height: 400px;}
+    main {padding-top: 50px;}
+
+    p {
+        font-size: 13px;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .btn-comprar {
+        height: 20px;
+        font-size: 12px;
+    }
+
+    .contatos {
+        height: 20px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 575px){
+    body {max-width: 575px;}
+    header {padding: 5px;}
+    nav {line-height: 30px;}
+    img {width: 150px;}
+    h1 {font-size: 24px;}
+    h2 {font-size: 20px;}
+    h3 {font-size: 18px;}
+    iframe {width: 525px; height: 400px;}
+    main {padding-top: 50px;}
+
+    p {
+        font-size: 13px;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .btn-comprar {
+        height: 20px;
+        font-size: 12px;
+    }
+
+    .contatos {
+        height: 20px;
+        font-size: 12px;
+    }
+}
+
 @media screen and (max-width: 550px){
     body {max-width: 550px;}
     header {padding: 5px;}
